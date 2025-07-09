@@ -8,13 +8,13 @@ public class FizzBuzz {
         for (int i = 1; i <= n; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 list.add("FizzBuzz");
-                continue;
+                //continue;
             } else if (i % 3 == 0) {
                 list.add("Fizz");
-                continue;
+                //continue;
             } else if (i % 5 == 0) {
                 list.add("Buzz");
-                continue;
+                //continue;
             } else {
                 list.add(String.valueOf(i));
             }
