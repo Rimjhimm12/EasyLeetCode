@@ -24,6 +24,6 @@ public class NumberofStepstoReduceANumberToZero {
 
     public static void main(String[] args) {
         NumberofStepstoReduceANumberToZero obj = new NumberofStepstoReduceANumberToZero();
-        System.out.println("Total number of steps: "+obj.numberOfSteps(23));
+        System.out.println("Total number of steps: "+obj.numberOfSteps(23) +2 );
     }
 }
