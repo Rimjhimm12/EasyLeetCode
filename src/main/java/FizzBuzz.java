@@ -21,6 +21,11 @@ public class FizzBuzz {
         }
         return list;
     }
+    // Implementing new logic without using % 
+
+    public void newFizzBuzz(int n){
+        
+    }
 
 
     public static void main(String[] args) {
